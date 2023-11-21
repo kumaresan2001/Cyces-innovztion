@@ -1,0 +1,81 @@
+.attraction-container{
+    width: 340px;
+    height: min-content;
+
+}
+.attraction-poster{
+    height: 240px;
+    width: 100%;
+    object-fit: cover;
+}
+.attraction-specs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.attraction-name{
+    font-size: 24px;
+    margin: 0;
+}
+.attraction-rating{
+    font-size: 28px;
+}
+.attraction-summry{
+    margin: 10px;
+}
+.attrac-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px,1fr));
+    gap: 20px;
+    justify-items: center;
+}
+.add-attrac-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 500px;
+    margin: 10px auto;
+
+}
+
+
+
+
+.tic
+{
+    text-align: center;
+}
+.movie-detail-container{
+    max-width: 750px;
+}
+body{
+    margin: 0px;
+}
+.dark-mode{
+    display: flex;
+    align-items: center;
+     justify-content: space-between;
+}
+.text{
+   color: rgb(83, 111, 215);
+   padding-left: 80px;
+}
+.details{
+    text-align: center;
+   margin-top: 30px;
+}
+.detail{
+    width: 30%;
+    justify-items: center;
+   margin-left: 530px;
+   margin-top: 20px;
+}
+.image-detail{
+    margin-top: 10px;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.detail-data{
+   font-weight: bolder;
+}
