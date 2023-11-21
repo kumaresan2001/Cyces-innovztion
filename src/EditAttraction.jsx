@@ -59,7 +59,7 @@ function EditAttractionForm({ data }) {
     Navigate("/attractionlist");
   };
   return (
-    <form onSubmit={handleSubmit} className="add-movie-form">
+    <form onSubmit={handleSubmit} className="add-attrac-form">
       <TextField
         name="name"
         onChange={handleChange}
